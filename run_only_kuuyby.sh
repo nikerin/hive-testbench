@@ -14,6 +14,6 @@ do
   END_TIME=`date +%s`
   RUNTIME=$((END_TIME-START_TIME))
 
-  echo \| sample-queries-tpcds-spark \| tpcds_bin_partitioned_delta_10000 \| ${RUNTIME} \| ${EXIT_STATUS}\| >> result_${TYPE_TEST}.txt
+  echo \| sample-queries-tpcds-spark \| tpcds_bin_partitioned_delta_10000 \| ${RUNTIME} \| ${EXIT_STATUS}\| >> sample_queries_tpcds_spark_${TYPE_TEST}.txt
 
 done
